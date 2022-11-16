@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MyController {
     @RequestMapping("pages")
     public String  show(){
-//        System.out.println("hello.......");
+        System.out.println("hello.......");
         return "pages";
     }
 }
